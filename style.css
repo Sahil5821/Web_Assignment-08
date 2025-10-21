@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calsi{
+    width: 380px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.display{
+    width: 380px;
+    height: 130px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.keypad{
+    width: 380px;
+    height: 370px;
+    border: 2px solid black;
+    display: flex;
+
+    
+}
+
+#input{
+    display: inline-block;
+    width: 360px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.keypad{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.btn {
+    flex: 1 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
